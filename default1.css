@@ -148,9 +148,9 @@ nav li:first-child a {
 nav a {
   border-right: 1px solid #e3e3e3;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
-  padding: 6px 12px;
+  padding: 2px 8px;
   display: block;
 }
 
