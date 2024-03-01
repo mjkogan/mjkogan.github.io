@@ -1,60 +1,130 @@
+<!DOCTYPE html>
 <html lang="en"> 
 
 <head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<meta charset="utf-8">
 	<title>Matthew Kogan - Research</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<link rel="shortcut icon" href="https://people.ucsc.edu/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="normalize1.css">
 	<link rel="stylesheet" type="text/css" href="default1.css">
+	
 </head>
 
 <body> 
-
-<section class="content"> 
-
 	<section class="banner">
-		<h1> <a href="index.html">Matthew Kogan</a> </h1>
+		<h1> Matthew <br> Kogan</h1>
+
+		<h2 style="padding-top: clamp(3px, 0.3vw, 0.3vw);"> PhD Student in Linguistics <br> University of California, <br> Santa Cruz</h2>
 	</section>
 	
 	<section class="nav">
-	        <!-- Navigation -->
 	        <nav>
 	          <ul>
-	            <li><a href="index.html">Home</a></li>
-				<li><a href="research.html" style="border-bottom:2px solid #00458c">Research</a></li>
-	            <li><a href="KoganCV-Jan23.pdf" target="_blank">CV [pdf]</a></li>
-				<li><a href="about.html">About Me</a></li>
+	            <li><a href="index.html">home</a></li>
+				<li><a href="research.html">research</a></li>
+	            <li><a href="Kogan_CV_24.pdf" target="_blank">cv</a></li>
+				<li><a href="about.html">about</a></li>
 	          </ul>
 	        </nav>
     </section>
-	
-	<section class = "section-content">
+
+<section class="content" style="height: 375px; overflow: scroll; padding-top: 30px;"> 
+
+	<section class = "section-content" style="height: 335px; padding-bottom:15px">
 		
-		<section class = "left-image"> 
-			<img src = "image/natural-bridges.jpeg" alt = "Natural Bridges Beach after recent storms in Santa Cruz">
-		</section>
+		<div class="right" style="float: right;">
 		
-		<br>
-		<h3>Syntactic Retrieval Cues</h3>
-		<p>My thesis work examines the role of specifier positions as cues in a content-addressable retrieval mechanism leveraged during the resolution of long distance subject-verb dependencies.</p> <p>Related work explores the Subject-Object Asymmetry in preposition-embedded questions, and provides evidence that canonical animacy/thematic role alignment configurations guide dependency processing more generally. <a href="files/EmbQMaze_CAMP5.pdf" target="_blank">slides</a></p>
+			<object data="Kogan_MAThesis23.pdf#toolbar=0" type="application/pdf" width="68%" height="285px" style="float:right;"></object>
+		</a>
+		<p style="float:right; font-family: cm-Italic; font-size: 12px; padding-bottom:0px; line-height:16px;">Figure 2. MA Thesis</p>
+		</div>
 		
-		<h3>Game of Tones</h3>
-		<p>In collaboration with members of the <a href = "https://zapotec.ucsc.edu/">Zapotec Language Project</a>, I developed an online memory <a href = "https://wlma.ucsc.edu/nidodelenguas/games/gameoftones/">game</a> intended to teach participants about lexical tones in Santiago Laxopa Zapotec. This work was developed into a workshop on field methods and digital games for <a href = "https://www.ssila.org/en/home">SSILA</a> in January, 2023. More information and resources pertaining to the workshop can be found <a href = "https://sites.google.com/ucsc.edu/engagingcommunity">here.</a></p> 
+		<div class="left">
+			<div class="details">
 		
-		<h3>Contextual Animacy</h3>
-		<p>As a Research Assistant with <a href = "https://docs.google.com/document/d/1r6nNtZzXs-jIvBzvx9p3yUhRhdvX7mZPK-4EH7-aA6o/edit">r/lab</a>, we investigated the contextual sensitivity of animacy in relative clause processing using the Maze task. We presented our findings at the 35th Conference on Human Sentence Processing. <a href = "files/hsp_spring2022.pdf" target="_blank">slides</a></p>
+				<h2 style="height: 35px;">Syntactic Retrieval Cues</h2>
+				<p>My <a href="Kogan_MAThesis23.pdf" target="_blank">thesis</a> investigates the granularity of syntactic cues leveraged during the resolution of long distance subject-verb dependencies, with particular emphasis on the cue-combinatorics specific to the distinct grammatical functions associated with subject retrieval operations.</p> 
+
+
+				<p style="width:94%; float:right; font-size: 12px; line-height:15px;"><b style="font-family: f-Italic;">Investigating Syntactic Gating during Subject Retrieval with English Ditransitives.</b> Talk at California Meeting on Psycholinguistics (CAMP) 6, Stanford, January 2024. (with Matt Wagers)</p>
+				<br>
+				<p style="width:94%; float:right; font-size: 12px; line-height:15px;"><b style="font-family: f-Italic;">Maintaining Syntactic Positions and Thematic Roles in Memory: Evidence from Ditransitive Alternations in English.</b> Poster at AMLaP 29, BCBL, September 2023. (with Matt Wagers)</p>
+<br>
+<br>
+
+			</div>
+		</div>
+			
+	</section>
 		
-		<h3>Implicit Prosody</h3>
-		<p>As an undergraduate research assistant for <a href = "https://people.ucsc.edu/~nvanhand/">Nick Van Handel</a>, we explored the assignment of implicit prosody during silent reading using delexicalized melodies in self-paced reading and Maze tasks.</p>
+	<section class = "section-content" style="height: 265px; padding-bottom:25px">
+
+			<div class= "left" style="float: left; width: 40%; justify-content: center; display: flex;">
+				<audio id="audio-dog" src="mp3/dog.mp3"></audio>
+				<audio id="audio-snow" src="mp3/snow.mp3"></audio>
+					<div class="card" id="card-dog" style="width:45%;"> 
+						<button onclick="document.getElementById('audio-dog').play()">beku'</button> <br>
+						<img src = "image/dog.png" style="width:90px;margin:8px 0px 0px 0px"> <br>
+					</div>
+					<div class="card" id="card-snow" style="width:45%;"> 
+						<button onclick="document.getElementById('audio-snow').play()">beye'</button> <br>
+						<img src = "image/snow.png" style="width:70px;margin:5px 0px 0px 0px"> <br>
+					</div>
+			</div>	
+			<div class="right" style="float: right; width: 60%">
+			<div class="details">
+				<h2 style="float:right; height: 35px;">Game of Tones</h2>
+				<p style="float:right;">In collaboration with members of the <a href = "https://zapotec.ucsc.edu/" target="_blank">Zapotec Language Project</a>, I developed an online game, the <a href = "https://wlma.ucsc.edu/nidodelenguas/games/gameoftones/" target="_blank">Game of Tones</a>, intended to teach participants about lexical tones in Santiago Laxopa Zapotec. This work was developed into a <a href="https://sites.google.com/ucsc.edu/engagingcommunity/home" target="_blank">special session</a> on field methods and digital games at the Society for the Study of the Indigenous Languages of the Americas. </p>
+			
+			<p style="width:94%; float:right; font-size: 12px; line-height:15px;"><b style="font-family: f-Italic;">Implementing Game of Tones.</b> Tutorial in special session 'Engaging the Community: Using field methods classes for community out reach' at SSILA Annual Meeting, January 2023. (with Andrew Hedding, Jack Duff, and Mykel Lorne Brinkerhoff)</p>
+			
+			</div>
+			</div>
+
+	</section>
+
+	<section class="section-content" style="height: 215px;padding-bottom:15px;">
+		
+		<div class="right" style="float: right;">
+			<img src="image/animacy.png" style="width:80%; border: 1px solid #555;" class="right-image">
+			<p style="float:right; font-family: cm-Italic; font-size: 12px; padding-bottom:0px; line-height:16px;">Figure 3. Mean ORC reading times</p>
+		</div>
+		
+		<div class="left">
+		<div class="details">
+
+			<h2 style="height: 35px;">Contextual Animacy</h2>
+			<p>As a Research Assistant with <a href = "https://babel.ucsc.edu/animacy/" target="_blank">r/lab</a>, we investigated the contextual sensitivity of animacy in relative clause processing using the Maze task. We presented our findings at the 35th Conference on Human Sentence Processing. <a href = "https://docs.google.com/presentation/d/1M1SxW-5C47YpOikUAVkTrr1gLTpw-as7T8GJaLO3S0A/edit?usp=sharing" target="_blank">slides</a></p>
+			
+			<p style="width:94%; float:right; font-size: 12px; line-height:15px;"><b style="font-family: f-Italic;">"It's alive!": Animacy based structural expectations rapidly update with context</b> Poster at HSP (35), UCSC, March 2022. (with Stephanie Rich, Lalitha Balachandran, Jack Duff, Nicholas Van Handel, Maya Wax Cavallaro, and Matt Wagers)</p>
+			
+		</div>
+		</div>
 		
 		
 	</section>
-	
-	
-	
+
+	<section class="section-content">
+
+		<div class="right" style="float: right; width: 60%; height: 135px;padding-bottom:15px;">
+		<div class="details">
+
+			<h2 style="float:right; height: 35px;">Implicit Prosody</h2>
+			<p style="float:right;">As an undergraduate research assistant for <a href = "https://people.ucsc.edu/~nvanhand/" target="_blank">Nick Van Handel</a>, we explored implicit prosody during silent reading using delexicalized melodies in self-paced reading and Maze tasks.</p>
+
+		</div>
+		</div>
+
+	</section>
 
 </section>
+
+	<section class="lsbottom">
+		<h2> <a href="mailto:mjkogan@ucsc.edu">mjkogan@ucsc.edu</a> <br> <a href="https://www.linkedin.com/in/matthew-kogan-726a3594/">LinkedIn</a> </h2>
+		<h2>  1156 High St, <br> Santa Cruz, CA 95060 </h2>
+	</section>
 
 </body>
 
