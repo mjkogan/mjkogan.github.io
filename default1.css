@@ -252,6 +252,27 @@ button:hover{
   
 }
 
+.section-content p a {
+	color: #000;
+	text-decoration: none;
+	font-family: hairline;
+	border:solid;
+	border-width:0.067vw;
+	padding:0.084vw;
+	border-radius:0.334vw;
+}
+
+.section-content p a:hover {
+	background-color:#000;
+	color: #f0f5f5;
+	text-decoration: none;
+	font-family: hairline;
+	border:solid;
+	border-width:0.067vw;
+	padding:0.084vw;
+	border-radius:0.334vw;
+}
+
 .left {
 	order: 0;
 	width: 60%;
