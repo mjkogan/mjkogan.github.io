@@ -58,6 +58,7 @@ a:hover {
 
 table, th, td {
 	padding: 0;
+	/*border:1px solid #FF0000;*/
 }
 
 h1 {
